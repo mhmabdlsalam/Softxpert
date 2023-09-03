@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.arrows.domain.model.Type" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_3sdp"
+        android:clickable="true"
+        app:cardBackgroundColor="#D6D6D6"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/_3sdp"
+        app:strokeWidth="@dimen/_1sdp"
+        >
+
+        <TextView
+            android:id="@+id/animalType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text=""
+            android:textColor="@color/black"
+            android:padding="@dimen/_12sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>

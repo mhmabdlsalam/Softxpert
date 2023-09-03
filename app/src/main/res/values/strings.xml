@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SoftxpertTask</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="type">Type</string>
+    <string name="size">Size</string>
+    <string name="color">Color</string>
+    <string name="address">Address</string>
+    <string name="btn">Animal Website</string>
+
+</resources>
