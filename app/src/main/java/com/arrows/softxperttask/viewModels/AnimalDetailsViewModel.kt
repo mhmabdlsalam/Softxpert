@@ -23,6 +23,7 @@ class AnimalDetailsViewModel @Inject constructor(
 ) : ViewModel()
 {
 
+
     private var _animal: MutableStateFlow<AnimalDetailsResponse?> = MutableStateFlow(null)
     val animal: StateFlow<AnimalDetailsResponse?> = _animal
 
